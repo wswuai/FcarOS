@@ -1,0 +1,481 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCER	Angle_Controller.c	/^INT32U   *ACCER;$/;"	v
+ACCER_X	LPLD_uCosV292.c	/^INT32U *ACCER_X;$/;"	v
+ACK_CAM	USART_Middle_Module.h	/^#define ACK_CAM /;"	d
+ACK_CONN	USART_Middle_Module.h	/^#define ACK_CONN /;"	d
+ACK_FRAME_LEN	USART_Middle_Module.c	/^#define ACK_FRAME_LEN /;"	d	file:
+ACK_PARAMETERS_SET	USART_Middle_Module.h	/^#define ACK_PARAMETERS_SET /;"	d
+ACK_PARAMETERS_SET_Response	USART_Middle_Module.c	/^void ACK_PARAMETERS_SET_Response(INT8U *dat)$/;"	f
+ACK_REP_CAM_START	USART_Middle_Module.h	/^#define ACK_REP_CAM_START /;"	d
+ACK_REP_CAM_STOP	USART_Middle_Module.h	/^#define ACK_REP_CAM_STOP /;"	d
+ACK_REP_START	USART_Middle_Module.h	/^#define ACK_REP_START /;"	d
+ACK_REP_START_Response	USART_Middle_Module.c	/^void ACK_REP_START_Response(void)$/;"	f
+ACK_REP_STOP	USART_Middle_Module.h	/^#define ACK_REP_STOP /;"	d
+ACK_REP_STOP_Response	USART_Middle_Module.c	/^void ACK_REP_STOP_Response(void)$/;"	f
+ACK_TARGET_RESET	USART_Middle_Module.h	/^#define ACK_TARGET_RESET /;"	d
+ACK_TARGET_RESET_Response	USART_Middle_Module.c	/^void ACK_TARGET_RESET_Response(void)$/;"	f
+ADR_OV7670	DEV_SCCB.h	/^#define ADR_OV7670 /;"	d
+ANGLEPID_ANGLESET	OSMessage.h	/^#define ANGLEPID_ANGLESET /;"	d
+ANGLEPID_DERIVATIVE	OSMessage.h	/^#define ANGLEPID_DERIVATIVE /;"	d
+ANGLEPID_INTEGRAL	OSMessage.h	/^#define ANGLEPID_INTEGRAL /;"	d
+ANGLEPID_PROPORTION	OSMessage.h	/^#define ANGLEPID_PROPORTION /;"	d
+ANGLE_D	USART_Middle_Module.c	/^float32_t *ANGLE_D      = NULL;$/;"	v
+ANGLE_I	USART_Middle_Module.c	/^float32_t *ANGLE_I      = NULL;$/;"	v
+ANGLE_P	USART_Middle_Module.c	/^float32_t *ANGLE_P      = NULL;$/;"	v
+APP_ANGLE_CONTROLLER_PRIO	app_cfg.h	/^#define  APP_ANGLE_CONTROLLER_PRIO /;"	d
+APP_CAMERA_CONTROLLER_PRIO	app_cfg.h	/^#define  APP_CAMERA_CONTROLLER_PRIO /;"	d
+APP_CFG_MODULE_PRESENT	app_cfg.h	/^#define  APP_CFG_MODULE_PRESENT$/;"	d
+APP_CFG_SERIAL_EN	app_cfg.h	/^#define  APP_CFG_SERIAL_EN /;"	d
+APP_CFG_TASK_START_PRIO	app_cfg.h	/^#define  APP_CFG_TASK_START_PRIO /;"	d
+APP_CFG_TASK_START_STK_SIZE	app_cfg.h	/^#define  APP_CFG_TASK_START_STK_SIZE /;"	d
+APP_DIRECTION_CONTROLLER_PRIO	app_cfg.h	/^#define  APP_DIRECTION_CONTROLLER_PRIO /;"	d
+APP_SPEED_CONTROLLER_PRIO	app_cfg.h	/^#define  APP_SPEED_CONTROLLER_PRIO /;"	d
+APP_STRATEGY_TASK_PRIO	app_cfg.h	/^#define  APP_STRATEGY_TASK_PRIO /;"	d
+APP_TASK1_PRIO	app_cfg.h	/^#define  APP_TASK1_PRIO /;"	d
+APP_TASK_KEY_PRIO	app_cfg.h	/^#define  APP_TASK_KEY_PRIO /;"	d
+ASSERT_ON_OFF	k60_card.h	/^#define ASSERT_ON_OFF /;"	d
+AngleValueCalculate	Angle_Controller.c	/^void AngleValueCalculate(void)$/;"	f
+AngleValueERR	Angle_Controller.c	/^float32_t AngleValueERR=0;$/;"	v
+AngleValueGet	Angle_Controller.c	/^INT32U AngleValueGet(void)$/;"	f
+Angle_CONTROLLER_H	Angle_Controller.h	/^#define Angle_CONTROLLER_H$/;"	d
+Angle_Control_PID_Result	Angle_Controller.c	/^float32_t Angle_Control_PID_Result;$/;"	v
+Angle_Control_Task	Angle_Controller.c	/^void Angle_Control_Task (void *p_arg  )$/;"	f
+Angle_Controller_Init	Angle_Controller.c	/^INT8U Angle_Controller_Init (void  )$/;"	f
+Angle_Controller_MBox	Angle_Controller.c	/^OS_EVENT *Angle_Controller_MBox;$/;"	v
+Angle_Controller_Reset	Angle_Controller.c	/^void Angle_Controller_Reset(void )$/;"	f
+Angle_Controller_Task_Stk	LPLD_uCosV292.c	/^OS_STK Angle_Controller_Task_Stk[APP_CFG_TASK_START_STK_SIZE];$/;"	v
+Angle_Offset	Angle_Controller.c	/^float32_t Angle_Offset = 0;$/;"	v
+Angle_PID	Angle_Controller.c	/^arm_pid_instance_f32 Angle_PID;$/;"	v
+Angle_PID_D	Angle_Controller.c	/^float32_t Angle_PID_D=ANGLEPID_DERIVATIVE;$/;"	v
+Angle_PID_Get	Angle_Controller.c	/^arm_pid_instance_f32 *Angle_PID_Get(void)$/;"	f
+Angle_PID_I	Angle_Controller.c	/^float32_t Angle_PID_I=ANGLEPID_INTEGRAL;$/;"	v
+Angle_PID_P	Angle_Controller.c	/^float32_t Angle_PID_P=ANGLEPID_PROPORTION;$/;"	v
+Angle_PID_S	Angle_Controller.c	/^float32_t Angle_PID_S=ANGLEPID_ANGLESET;$/;"	v
+App_TaskStart	LPLD_uCosV292.c	/^void  App_TaskStart (void *p_arg)$/;"	f
+App_TaskStartStk	LPLD_uCosV292.c	/^OS_STK App_TaskStartStk[APP_CFG_TASK_START_STK_SIZE];	$/;"	v
+BUS_CLK_MHZ	k60_card.h	/^#define BUS_CLK_MHZ /;"	d
+Brightness	DEV_SSD1306.h	/^#define	Brightness	/;"	d
+CAR_TYPE	USART_Middle_Module.h	/^#define CAR_TYPE /;"	d
+CONN_REQ	USART_Middle_Module.h	/^#define CONN_REQ /;"	d
+CONTROLLER_CHANGE	OSMessage.h	/^#define CONTROLLER_CHANGE /;"	d
+CONTROLLER_DO	OSMessage.h	/^#define CONTROLLER_DO /;"	d
+CONTROLLER_INTEGRATE	OSMessage.h	/^#define CONTROLLER_INTEGRATE /;"	d
+CONTROLLER_SHUTDOWN	OSMessage.h	/^#define CONTROLLER_SHUTDOWN /;"	d
+CORE_CLK_MHZ	k60_card.h	/^#define CORE_CLK_MHZ /;"	d
+CPU_MK60DZ10	k60_card.h	/^#define CPU_MK60DZ10$/;"	d
+Camera_Task	Camera_Controller.c	/^void Camera_Task(void *p_arg) \/\/Camera Task$/;"	f
+Camera_Task	DEV_Camera_OV7620.c	/^void Camera_Task(void *p_arg) \/\/Camera Task$/;"	f
+Camera_Task_Stk	LPLD_uCosV292.c	/^OS_STK Camera_Task_Stk[APP_CFG_TASK_START_STK_SIZE];$/;"	v
+CapFinished	Camera_Controller.c	/^OS_EVENT *CapFinished;$/;"	v
+CapFinished	DEV_Camera_OV7620.c	/^uint8 CapFinished=0;               $/;"	v
+CarAngle	Angle_Controller.c	/^float32_t CarAngle =0;$/;"	v
+ControllerMsg_TypeDef	OSMessage.h	/^}ControllerMsg_TypeDef;$/;"	t	typeref:struct:__anon1
+Controller_Msg_Type	OSMessage.h	/^    INT32U Controller_Msg_Type;$/;"	m	struct:__anon1
+DEBUG_ASSERT	k60_card.h	/^  #undef DEBUG_ASSERT$/;"	d
+DEBUG_PRINT	k60_card.h	/^  #undef DEBUG_PRINT$/;"	d
+DEV_GYRO_H	DEV_Gyro.h	/^#define DEV_GYRO_H$/;"	d
+DIRECTION_CONTROLLER_H	Direction_Controller.h	/^#define DIRECTION_CONTROLLER_H$/;"	d
+DIRPID_DERIVATIVE	OSMessage.h	/^#define DIRPID_DERIVATIVE /;"	d
+DIRPID_DIRSET	OSMessage.h	/^#define DIRPID_DIRSET /;"	d
+DIRPID_INTEGRAL	OSMessage.h	/^#define DIRPID_INTEGRAL /;"	d
+DIRPID_PROPORTION	OSMessage.h	/^#define DIRPID_PROPORTION /;"	d
+DIR_D	USART_Middle_Module.c	/^float32_t *DIR_D        = NULL;$/;"	v
+DIR_I	USART_Middle_Module.c	/^float32_t *DIR_I        = NULL;$/;"	v
+DIR_P	USART_Middle_Module.c	/^float32_t *DIR_P        = NULL;$/;"	v
+DMACH2_InitStructure	Camera_Controller.c	/^DMA_InitTypeDef DMACH2_InitStructure;$/;"	v
+DirectionValueGet	Direction_Controller.c	/^INT32U DirectionValueGet(void)$/;"	f
+Direction_Control_Task	Direction_Controller.c	/^void Direction_Control_Task (void *p_arg  )$/;"	f
+Direction_Controller_Init	Direction_Controller.c	/^INT8U Direction_Controller_Init (void  )$/;"	f
+Direction_Controller_MBox	Direction_Controller.c	/^OS_EVENT *Direction_Controller_MBox;$/;"	v
+Dis_Float	DEV_SSD1306.c	/^void Dis_Float(INT8U Y,INT8U X,double real,INT8U N) $/;"	f
+Dis_Num	DEV_SSD1306.c	/^void Dis_Num(INT8U y, INT8U x, INT32U num,INT8U N) $/;"	f
+Draw_BMP	DEV_SSD1306.c	/^void Draw_BMP(INT8U x0,INT8U y0,INT8U x1,INT8U y1,INT8U bmp[])$/;"	f
+Draw_LQLogo	DEV_SSD1306.c	/^void Draw_LQLogo(void)$/;"	f
+EN_LEFT_MOTOR	DEV_Motor.h	/^#define EN_LEFT_MOTOR /;"	d
+EN_RIGHT_MOTOR	DEV_Motor.h	/^#define EN_RIGHT_MOTOR$/;"	d
+F6x8	DEV_SSD1306.c	/^const INT8U F6x8[][6] =$/;"	v
+F8X16	DEV_SSD1306.c	/^const INT8U F8X16[]=$/;"	v
+FAILED	OSMessage.h	/^#define FAILED /;"	d
+FLASH_CLK_MHZ	k60_card.h	/^#define FLASH_CLK_MHZ /;"	d
+FLEXBUS_CLK_MHZ	k60_card.h	/^#define FLEXBUS_CLK_MHZ /;"	d
+GRAVITY_ADJUST_TIME_CONSTANT	OSMessage.h	/^#define GRAVITY_ADJUST_TIME_CONSTANT /;"	d
+GRAVITY_ANGLE_RATIO	OSMessage.h	/^#define GRAVITY_ANGLE_RATIO /;"	d
+GRAVITY_OFFSET	OSMessage.h	/^#define GRAVITY_OFFSET /;"	d
+GYRO	Angle_Controller.c	/^INT32U   *GYRO;$/;"	v
+GYRO_ANGLE_RATIO	OSMessage.h	/^#define GYRO_ANGLE_RATIO /;"	d
+GYRO_INTEGRAL_FREQUENCY	OSMessage.h	/^#define GYRO_INTEGRAL_FREQUENCY /;"	d
+GYRO_X	LPLD_uCosV292.c	/^INT32U *GYRO_X;$/;"	v
+Get_Accer	DEV_Gyro.c	/^INT32U *Get_Accer (void )$/;"	f
+Get_Angle_Result	Angle_Controller.c	/^float32_t *Get_Angle_Result(void)$/;"	f
+Get_GYRO_X	DEV_Gyro.c	/^INT32U *Get_GYRO_X (void )$/;"	f
+Get_Speed	DEV_QuadDecode.c	/^INT16S *Get_Speed(void)$/;"	f
+GravityAngle	Angle_Controller.c	/^float32_t GravityAngle = 0;$/;"	v
+Gravity_Adjust_Time_Constant	Angle_Controller.c	/^float32_t Gravity_Adjust_Time_Constant = GRAVITY_ADJUST_TIME_CONSTANT;$/;"	v
+Gravity_Angle_Ratio	Angle_Controller.c	/^float32_t Gravity_Angle_Ratio = GRAVITY_ANGLE_RATIO;$/;"	v
+Gravity_Offset	Angle_Controller.c	/^float32_t Gravity_Offset = GRAVITY_OFFSET;$/;"	v
+GyroIntegral	Angle_Controller.c	/^float32_t GyroIntegral=1400;$/;"	v
+GyroSpeed	Angle_Controller.c	/^float32_t GyroSpeed =0;$/;"	v
+Gyro_Angle_Ratio	Angle_Controller.c	/^float32_t Gyro_Angle_Ratio = GYRO_ANGLE_RATIO;$/;"	v
+Gyro_GetStable	Angle_Controller.c	/^INT32S Gyro_GetStable(INT32U *gyro , INT32U *accer)$/;"	f
+Gyro_Init	DEV_Gyro.c	/^void Gyro_Init (void)$/;"	f
+Gyro_Middle_Value	Angle_Controller.c	/^INT32U    Gyro_Middle_Value=0;$/;"	v
+H	Camera_Controller.c	/^#define H /;"	d	file:
+H	Camera_Controller.h	/^#define H /;"	d
+HSyncPin_InitStructure	Camera_Controller.c	/^GPIO_InitTypeDef HSyncPin_InitStructure;$/;"	v
+HSyncPin_InitStructure	DEV_Camera_OV7620.c	/^GPIO_InitTypeDef HSyncPin_InitStructure;$/;"	v
+ImageCapturing	Camera_Controller.c	/^INT8U ImageCapturing = 0;$/;"	v
+ImageCapturing	DEV_Camera_OV7620.c	/^INT8U ImageCapturing = 0;$/;"	v
+Image_Height	SDCard_Middle_Module.c	/^INT32U Image_Height=0;$/;"	v
+Image_Pointer	SDCard_Middle_Module.c	/^INT8U *Image_Pointer;$/;"	v
+Image_Width	SDCard_Middle_Module.c	/^INT32U Image_Width=0;$/;"	v
+Init_Led	DEV_Led.c	/^void Init_Led (void  )$/;"	f
+KEY_A	KEY_Middle_Module.h	/^#define KEY_A /;"	d
+KEY_B	KEY_Middle_Module.h	/^#define KEY_B /;"	d
+KEY_C	KEY_Middle_Module.h	/^#define KEY_C /;"	d
+KEY_CALLBACK_FUNC	KEY_Middle_Module.h	/^typedef void (*KEY_CALLBACK_FUNC)(void);$/;"	t
+Key_CB	KEY_Middle_Module.c	/^KEY_CALLBACK_FUNC Key_CB[3]= {NULL,NULL,NULL};$/;"	v
+Key_CB_Invoke	KEY_Middle_Module.c	/^void Key_CB_Invoke(INT8U Key_Type, KEY_CALLBACK_FUNC p)$/;"	f
+Key_Init	KEY_Middle_Module.c	/^void Key_Init(void)$/;"	f
+Key_Task	KEY_Middle_Module.c	/^void Key_Task(void *p_arg) \/\/ Key Task .Called By OS.$/;"	f
+Key_Task_Stk	LPLD_uCosV292.c	/^OS_STK Key_Task_Stk[APP_CFG_TASK_START_STK_SIZE\/2];$/;"	v
+Keys	KEY_Middle_Module.c	/^static GPIO_InitTypeDef Keys;$/;"	v	file:
+LCD_CLS	DEV_SSD1306.c	/^void LCD_CLS(void)$/;"	f
+LCD_DC_H	DEV_SSD1306.h	/^#define     LCD_DC_H(/;"	d
+LCD_DC_L	DEV_SSD1306.h	/^#define     LCD_DC_L(/;"	d
+LCD_DLY_ms	DEV_SSD1306.c	/^void LCD_DLY_ms(INT16U ms)$/;"	f
+LCD_Fill	DEV_SSD1306.c	/^void LCD_Fill(INT8U bmp_data)$/;"	f
+LCD_Init	DEV_SSD1306.c	/^void LCD_Init(void)        $/;"	f
+LCD_P6x8Str	DEV_SSD1306.c	/^void LCD_P6x8Str(INT8U x,INT8U y,INT8U ch[])$/;"	f
+LCD_P8x16Str	DEV_SSD1306.c	/^void LCD_P8x16Str(INT8U x,INT8U y,INT8U ch[])$/;"	f
+LCD_Print	DEV_SSD1306.c	/^void LCD_Print(INT8U x, INT8U y, INT8U ch[])$/;"	f
+LCD_PutPixel	DEV_SSD1306.c	/^void LCD_PutPixel(INT8U x,INT8U y)$/;"	f
+LCD_RST_H	DEV_SSD1306.h	/^#define     LCD_RST_H(/;"	d
+LCD_RST_L	DEV_SSD1306.h	/^#define     LCD_RST_L(/;"	d
+LCD_Rectangle	DEV_SSD1306.c	/^void LCD_Rectangle(INT8U x1,INT8U y1,INT8U x2,INT8U y2,INT8U gif)$/;"	f
+LCD_SCL_H	DEV_SSD1306.h	/^#define     LCD_SCL_H(/;"	d
+LCD_SCL_L	DEV_SSD1306.h	/^#define     LCD_SCL_L(/;"	d
+LCD_SDA_H	DEV_SSD1306.h	/^#define     LCD_SDA_H(/;"	d
+LCD_SDA_L	DEV_SSD1306.h	/^#define     LCD_SDA_L(/;"	d
+LCD_Set_Pos	DEV_SSD1306.c	/^void LCD_Set_Pos(INT8U x, INT8U y)$/;"	f
+LCD_WrCmd	DEV_SSD1306.c	/^void LCD_WrCmd(INT8U cmd)$/;"	f
+LCD_WrDat	DEV_SSD1306.c	/^void LCD_WrDat(INT8U data)$/;"	f
+LED_BLINK	DEV_Led.h	/^#define LED_BLINK /;"	d
+LED_Blink_Times	DEV_Led.c	/^INT32U  LED_Blink_Times[LED_COUNT];$/;"	v
+LED_COUNT	DEV_Led.h	/^#define LED_COUNT /;"	d
+LED_Change_Flag	DEV_Led.c	/^INT8U   LED_Change_Flag=0;$/;"	v
+LED_Controls	DEV_Led.c	/^INT8U   LED_Controls[LED_COUNT];$/;"	v
+LED_HEAD	DEV_Led.h	/^#define LED_HEAD /;"	d
+LED_OFF	DEV_Led.h	/^#define LED_OFF /;"	d
+LED_ON	DEV_Led.h	/^#define LED_ON /;"	d
+LED_PORT	DEV_Led.h	/^#define LED_PORT /;"	d
+LED_PTX	DEV_Led.h	/^#define LED_PTX /;"	d
+LPLD_SCCB_Ack	DEV_SCCB.c	/^static void LPLD_SCCB_Ack(void)$/;"	f	file:
+LPLD_SCCB_Delay	DEV_SCCB.c	/^static void LPLD_SCCB_Delay(uint16 i)$/;"	f	file:
+LPLD_SCCB_Init	DEV_SCCB.c	/^void LPLD_SCCB_Init(void)$/;"	f
+LPLD_SCCB_NoAck	DEV_SCCB.c	/^static void LPLD_SCCB_NoAck(void)$/;"	f	file:
+LPLD_SCCB_ReadReg	DEV_SCCB.c	/^uint8 LPLD_SCCB_ReadReg(uint8 reg_addr, uint8* data, uint16 length)$/;"	f
+LPLD_SCCB_ReceiveByte	DEV_SCCB.c	/^static uint8 LPLD_SCCB_ReceiveByte(void)  $/;"	f	file:
+LPLD_SCCB_SendByte	DEV_SCCB.c	/^static void LPLD_SCCB_SendByte(uint8 data) $/;"	f	file:
+LPLD_SCCB_Start	DEV_SCCB.c	/^static uint8 LPLD_SCCB_Start(void)$/;"	f	file:
+LPLD_SCCB_Stop	DEV_SCCB.c	/^static void LPLD_SCCB_Stop(void)$/;"	f	file:
+LPLD_SCCB_WaitAck	DEV_SCCB.c	/^static uint8 LPLD_SCCB_WaitAck(void) 	$/;"	f	file:
+LPLD_SCCB_WriteReg	DEV_SCCB.c	/^uint8 LPLD_SCCB_WriteReg(uint16 reg_addr , uint8 data)$/;"	f
+MOTOR_LEFT	DEV_Motor.h	/^#define MOTOR_LEFT /;"	d
+MOTOR_OFF	StrategyController.h	/^#define MOTOR_OFF /;"	d
+MOTOR_ON	StrategyController.h	/^#define MOTOR_ON /;"	d
+MOTOR_RIGHT	DEV_Motor.h	/^#define MOTOR_RIGHT /;"	d
+Max_Column	DEV_SSD1306.h	/^#define Max_Column	/;"	d
+Max_Row	DEV_SSD1306.h	/^#define Max_Row	/;"	d
+Mbox	Timer.c	/^    OS_EVENT *Mbox;$/;"	m	struct:__anon4	file:
+Message_To_Controller	LPLD_uCosV292.c	/^ControllerMsg_TypeDef Message_To_Controller; $/;"	v
+MotorStat	StrategyController.c	/^INT8U   MotorStat = MOTOR_ON;$/;"	v
+Motor_Init	DEV_Motor.c	/^void Motor_Init(void)$/;"	f
+Motor_Set	DEV_Motor.c	/^void Motor_Set(INT32S pwm,INT8U dir)\/\/ Called by Strategy Controller . Called Routine.$/;"	f
+Msg	Timer.c	/^    void *Msg;$/;"	m	struct:__anon4	file:
+Msg_Node	Timer.c	/^}Msg_Node;$/;"	t	typeref:struct:__anon4	file:
+Msg_Reset	USART_Middle_Module.c	/^ControllerMsg_TypeDef Msg_Reset;$/;"	v
+Next_Valid_Node	Timer.c	/^INT32U Next_Valid_Node=0;$/;"	v
+OS_APP_HOOKS_EN	os_cfg.h	/^#define OS_APP_HOOKS_EN /;"	d
+OS_ARG_CHK_EN	os_cfg.h	/^#define OS_ARG_CHK_EN /;"	d
+OS_CFG_H	os_cfg.h	/^#define OS_CFG_H$/;"	d
+OS_CPU_HOOKS_EN	os_cfg.h	/^#define OS_CPU_HOOKS_EN /;"	d
+OS_DEBUG_EN	os_cfg.h	/^#define OS_DEBUG_EN /;"	d
+OS_EVENT_MULTI_EN	os_cfg.h	/^#define OS_EVENT_MULTI_EN /;"	d
+OS_EVENT_NAME_EN	os_cfg.h	/^#define OS_EVENT_NAME_EN /;"	d
+OS_FLAGS_NBITS	os_cfg.h	/^#define OS_FLAGS_NBITS /;"	d
+OS_FLAG_ACCEPT_EN	os_cfg.h	/^#define OS_FLAG_ACCEPT_EN /;"	d
+OS_FLAG_DEL_EN	os_cfg.h	/^#define OS_FLAG_DEL_EN /;"	d
+OS_FLAG_EN	os_cfg.h	/^#define OS_FLAG_EN /;"	d
+OS_FLAG_NAME_EN	os_cfg.h	/^#define OS_FLAG_NAME_EN /;"	d
+OS_FLAG_QUERY_EN	os_cfg.h	/^#define OS_FLAG_QUERY_EN /;"	d
+OS_FLAG_WAIT_CLR_EN	os_cfg.h	/^#define OS_FLAG_WAIT_CLR_EN /;"	d
+OS_LOWEST_PRIO	os_cfg.h	/^#define OS_LOWEST_PRIO /;"	d
+OS_MAX_EVENTS	os_cfg.h	/^#define OS_MAX_EVENTS /;"	d
+OS_MAX_FLAGS	os_cfg.h	/^#define OS_MAX_FLAGS /;"	d
+OS_MAX_MEM_PART	os_cfg.h	/^#define OS_MAX_MEM_PART /;"	d
+OS_MAX_QS	os_cfg.h	/^#define OS_MAX_QS /;"	d
+OS_MAX_TASKS	os_cfg.h	/^#define OS_MAX_TASKS /;"	d
+OS_MBOX_ACCEPT_EN	os_cfg.h	/^#define OS_MBOX_ACCEPT_EN /;"	d
+OS_MBOX_DEL_EN	os_cfg.h	/^#define OS_MBOX_DEL_EN /;"	d
+OS_MBOX_EN	os_cfg.h	/^#define OS_MBOX_EN /;"	d
+OS_MBOX_PEND_ABORT_EN	os_cfg.h	/^#define OS_MBOX_PEND_ABORT_EN /;"	d
+OS_MBOX_POST_EN	os_cfg.h	/^#define OS_MBOX_POST_EN /;"	d
+OS_MBOX_POST_OPT_EN	os_cfg.h	/^#define OS_MBOX_POST_OPT_EN /;"	d
+OS_MBOX_QUERY_EN	os_cfg.h	/^#define OS_MBOX_QUERY_EN /;"	d
+OS_MEM_EN	os_cfg.h	/^#define OS_MEM_EN /;"	d
+OS_MEM_NAME_EN	os_cfg.h	/^#define OS_MEM_NAME_EN /;"	d
+OS_MEM_QUERY_EN	os_cfg.h	/^#define OS_MEM_QUERY_EN /;"	d
+OS_MUTEX_ACCEPT_EN	os_cfg.h	/^#define OS_MUTEX_ACCEPT_EN /;"	d
+OS_MUTEX_DEL_EN	os_cfg.h	/^#define OS_MUTEX_DEL_EN /;"	d
+OS_MUTEX_EN	os_cfg.h	/^#define OS_MUTEX_EN /;"	d
+OS_MUTEX_QUERY_EN	os_cfg.h	/^#define OS_MUTEX_QUERY_EN /;"	d
+OS_Q_ACCEPT_EN	os_cfg.h	/^#define OS_Q_ACCEPT_EN /;"	d
+OS_Q_DEL_EN	os_cfg.h	/^#define OS_Q_DEL_EN /;"	d
+OS_Q_EN	os_cfg.h	/^#define OS_Q_EN /;"	d
+OS_Q_FLUSH_EN	os_cfg.h	/^#define OS_Q_FLUSH_EN /;"	d
+OS_Q_PEND_ABORT_EN	os_cfg.h	/^#define OS_Q_PEND_ABORT_EN /;"	d
+OS_Q_POST_EN	os_cfg.h	/^#define OS_Q_POST_EN /;"	d
+OS_Q_POST_FRONT_EN	os_cfg.h	/^#define OS_Q_POST_FRONT_EN /;"	d
+OS_Q_POST_OPT_EN	os_cfg.h	/^#define OS_Q_POST_OPT_EN /;"	d
+OS_Q_QUERY_EN	os_cfg.h	/^#define OS_Q_QUERY_EN /;"	d
+OS_SCHED_LOCK_EN	os_cfg.h	/^#define OS_SCHED_LOCK_EN /;"	d
+OS_SEM_ACCEPT_EN	os_cfg.h	/^#define OS_SEM_ACCEPT_EN /;"	d
+OS_SEM_DEL_EN	os_cfg.h	/^#define OS_SEM_DEL_EN /;"	d
+OS_SEM_EN	os_cfg.h	/^#define OS_SEM_EN /;"	d
+OS_SEM_PEND_ABORT_EN	os_cfg.h	/^#define OS_SEM_PEND_ABORT_EN /;"	d
+OS_SEM_QUERY_EN	os_cfg.h	/^#define OS_SEM_QUERY_EN /;"	d
+OS_SEM_SET_EN	os_cfg.h	/^#define OS_SEM_SET_EN /;"	d
+OS_TASK_CHANGE_PRIO_EN	os_cfg.h	/^#define OS_TASK_CHANGE_PRIO_EN /;"	d
+OS_TASK_CREATE_EN	os_cfg.h	/^#define OS_TASK_CREATE_EN /;"	d
+OS_TASK_CREATE_EXT_EN	os_cfg.h	/^#define OS_TASK_CREATE_EXT_EN /;"	d
+OS_TASK_DEL_EN	os_cfg.h	/^#define OS_TASK_DEL_EN /;"	d
+OS_TASK_IDLE_STK_SIZE	os_cfg.h	/^#define OS_TASK_IDLE_STK_SIZE /;"	d
+OS_TASK_NAME_EN	os_cfg.h	/^#define OS_TASK_NAME_EN /;"	d
+OS_TASK_PROFILE_EN	os_cfg.h	/^#define OS_TASK_PROFILE_EN /;"	d
+OS_TASK_QUERY_EN	os_cfg.h	/^#define OS_TASK_QUERY_EN /;"	d
+OS_TASK_REG_TBL_SIZE	os_cfg.h	/^#define OS_TASK_REG_TBL_SIZE /;"	d
+OS_TASK_STAT_EN	os_cfg.h	/^#define OS_TASK_STAT_EN /;"	d
+OS_TASK_STAT_STK_CHK_EN	os_cfg.h	/^#define OS_TASK_STAT_STK_CHK_EN /;"	d
+OS_TASK_STAT_STK_SIZE	os_cfg.h	/^#define OS_TASK_STAT_STK_SIZE /;"	d
+OS_TASK_SUSPEND_EN	os_cfg.h	/^#define OS_TASK_SUSPEND_EN /;"	d
+OS_TASK_SW_HOOK_EN	os_cfg.h	/^#define OS_TASK_SW_HOOK_EN /;"	d
+OS_TASK_TMR_PRIO	app_cfg.h	/^#define  OS_TASK_TMR_PRIO /;"	d
+OS_TASK_TMR_STK_SIZE	os_cfg.h	/^#define OS_TASK_TMR_STK_SIZE /;"	d
+OS_TICKS_PER_SEC	os_cfg.h	/^#define OS_TICKS_PER_SEC /;"	d
+OS_TICK_STEP_EN	os_cfg.h	/^#define OS_TICK_STEP_EN /;"	d
+OS_TIME_DLY_HMSM_EN	os_cfg.h	/^#define OS_TIME_DLY_HMSM_EN /;"	d
+OS_TIME_DLY_RESUME_EN	os_cfg.h	/^#define OS_TIME_DLY_RESUME_EN /;"	d
+OS_TIME_GET_SET_EN	os_cfg.h	/^#define OS_TIME_GET_SET_EN /;"	d
+OS_TIME_TICK_HOOK_EN	os_cfg.h	/^#define OS_TIME_TICK_HOOK_EN /;"	d
+OS_TMR_CFG_MAX	os_cfg.h	/^#define OS_TMR_CFG_MAX /;"	d
+OS_TMR_CFG_NAME_EN	os_cfg.h	/^#define OS_TMR_CFG_NAME_EN /;"	d
+OS_TMR_CFG_TICKS_PER_SEC	os_cfg.h	/^#define OS_TMR_CFG_TICKS_PER_SEC /;"	d
+OS_TMR_CFG_WHEEL_SIZE	os_cfg.h	/^#define OS_TMR_CFG_WHEEL_SIZE /;"	d
+OS_TMR_EN	os_cfg.h	/^#define OS_TMR_EN /;"	d
+PARAMETERS_SET_REQ	USART_Middle_Module.h	/^#define PARAMETERS_SET_REQ /;"	d
+PARAM_Submit	USART_Middle_Module.c	/^void PARAM_Submit (void  )$/;"	f
+PCLK_InitStructure	Camera_Controller.c	/^GPIO_InitTypeDef PCLK_InitStructure;$/;"	v
+PCLK_InitStructure	DEV_Camera_OV7620.c	/^GPIO_InitTypeDef PCLK_InitStructure;$/;"	v
+PHOTO_SIZE	Camera_Controller.c	/^#define PHOTO_SIZE /;"	d	file:
+PHOTO_SIZE	Camera_Controller.h	/^#define PHOTO_SIZE /;"	d
+PIDCALCULATOR_H	PIDCalculator.h	/^#define PIDCALCULATOR_H$/;"	d
+PRINT_ON_OFF	k60_card.h	/^#define PRINT_ON_OFF /;"	d
+Pix_Data	Camera_Controller.c	/^uint8 Pix_Data[V][H];       $/;"	v
+Pix_Data	DEV_Camera_OV7620.c	/^uint8 Pix_Data[H][V];       $/;"	v
+QuadDecode_Init	DEV_QuadDecode.c	/^void QuadDecode_Init(void)$/;"	f
+REP_CAM_START	USART_Middle_Module.h	/^#define REP_CAM_START /;"	d
+REP_CAM_STOP	USART_Middle_Module.h	/^#define REP_CAM_STOP /;"	d
+REP_START_REQ	USART_Middle_Module.h	/^#define REP_START_REQ /;"	d
+REP_STOP_REQ	USART_Middle_Module.h	/^#define REP_STOP_REQ /;"	d
+RX_BUFFER_SIZE	USART_Middle_Module.h	/^#define RX_BUFFER_SIZE /;"	d
+Result_X	DEV_Gyro.c	/^INT32U Result_X=0;$/;"	v
+Result_Y	DEV_Gyro.c	/^INT32U Result_Y=0;$/;"	v
+Rx_Buffer	USART_Middle_Module.c	/^INT8U     Rx_Buffer[RX_BUFFER_SIZE];$/;"	v
+Rx_Buffer_Cnt	USART_Middle_Module.c	/^INT8U     Rx_Buffer_Cnt = 0   ;$/;"	v
+Rx_Buffer_OSem	USART_Middle_Module.c	/^OS_EVENT *Rx_Buffer_OSem;$/;"	v
+SCCB_DELAY	DEV_SCCB.h	/^#define SCCB_DELAY(/;"	d
+SCCB_DEV_ADR	DEV_SCCB.h	/^#define SCCB_DEV_ADR /;"	d
+SCCB_SCL	DEV_SCCB.h	/^#define SCCB_SCL /;"	d
+SCCB_SDA_I	DEV_SCCB.h	/^#define SCCB_SDA_I /;"	d
+SCCB_SDA_IN	DEV_SCCB.h	/^#define SCCB_SDA_IN(/;"	d
+SCCB_SDA_O	DEV_SCCB.h	/^#define SCCB_SDA_O /;"	d
+SCCB_SDA_OUT	DEV_SCCB.h	/^#define SCCB_SDA_OUT(/;"	d
+SDCARD_DRIVER_PRIO	app_cfg.h	/^#define  SDCARD_DRIVER_PRIO /;"	d
+SDCARD_ERR	SDCard_Middle_Module.c	/^#define SDCARD_ERR /;"	d	file:
+SDCARD_MIDDLE_MODULE_H	SDCard_Middle_Module.h	/^#define SDCARD_MIDDLE_MODULE_H$/;"	d
+SDCARD_NOINIT	SDCard_Middle_Module.c	/^#define SDCARD_NOINIT /;"	d	file:
+SDCARD_NOINJECT	SDCard_Middle_Module.c	/^#define SDCARD_NOINJECT /;"	d	file:
+SDCARD_PTR_INJECTION	OSMessage.h	/^#define SDCARD_PTR_INJECTION /;"	d
+SDCARD_READY	SDCard_Middle_Module.c	/^#define SDCARD_READY /;"	d	file:
+SDCARD_RECING	SDCard_Middle_Module.c	/^#define SDCARD_RECING /;"	d	file:
+SDCARD_REC_REQ	OSMessage.h	/^#define SDCARD_REC_REQ /;"	d
+SDCARD_TASK_PAUSE	OSMessage.h	/^#define SDCARD_TASK_PAUSE /;"	d
+SDCARD_TASK_STOP	OSMessage.h	/^#define SDCARD_TASK_STOP /;"	d
+SDCard_Close	SDCard_Middle_Module.c	/^void SDCard_Close(void)$/;"	f
+SDCard_Driver_Init	SDCard_Middle_Module.c	/^INT32U SDCard_Driver_Init (void  )$/;"	f
+SDCard_Driver_Stk	LPLD_uCosV292.c	/^OS_STK SDCard_Driver_Stk[APP_CFG_TASK_START_STK_SIZE];$/;"	v
+SDCard_Driver_Task	SDCard_Middle_Module.c	/^void SDCard_Driver_Task (void  *p_arg)$/;"	f
+SDCard_MBox	SDCard_Middle_Module.c	/^OS_EVENT *SDCard_MBox;$/;"	v
+SPEEDPID_CARSPEEDSET	OSMessage.h	/^#define SPEEDPID_CARSPEEDSET /;"	d
+SPEEDPID_DERIVATIVE	OSMessage.h	/^#define SPEEDPID_DERIVATIVE /;"	d
+SPEEDPID_INTEGRAL	OSMessage.h	/^#define SPEEDPID_INTEGRAL /;"	d
+SPEEDPID_PROPORTION	OSMessage.h	/^#define SPEEDPID_PROPORTION /;"	d
+SPEED_CONTROLLER_H	Speed_Controller.h	/^#define SPEED_CONTROLLER_H$/;"	d
+SPEED_I	USART_Middle_Module.c	/^float32_t *SPEED_I      = NULL;$/;"	v
+SPEED_P	USART_Middle_Module.c	/^float32_t *SPEED_P      = NULL;$/;"	v
+SPPED_D	USART_Middle_Module.c	/^float32_t *SPPED_D      = NULL;$/;"	v
+STAT_ANGLE_D	USART_Middle_Module.h	/^#define STAT_ANGLE_D /;"	d
+STAT_ANGLE_I	USART_Middle_Module.h	/^#define STAT_ANGLE_I /;"	d
+STAT_ANGLE_P	USART_Middle_Module.h	/^#define STAT_ANGLE_P /;"	d
+STAT_DIR_D	USART_Middle_Module.h	/^#define STAT_DIR_D /;"	d
+STAT_DIR_I	USART_Middle_Module.h	/^#define STAT_DIR_I /;"	d
+STAT_DIR_P	USART_Middle_Module.h	/^#define STAT_DIR_P /;"	d
+STAT_REQ	USART_Middle_Module.h	/^#define STAT_REQ /;"	d
+STAT_SPEED_I	USART_Middle_Module.h	/^#define STAT_SPEED_I /;"	d
+STAT_SPEED_P	USART_Middle_Module.h	/^#define STAT_SPEED_P /;"	d
+STAT_SPPED_D	USART_Middle_Module.h	/^#define STAT_SPPED_D /;"	d
+STAT_Submit	USART_Middle_Module.c	/^void STAT_Submit (void  )$/;"	f
+STAT_VALUE	USART_Middle_Module.h	/^#define STAT_VALUE /;"	d
+STAT_VALUE_ACCER	USART_Middle_Module.h	/^#define STAT_VALUE_ACCER /;"	d
+STAT_VALUE_ANGLE	USART_Middle_Module.h	/^#define STAT_VALUE_ANGLE /;"	d
+STAT_VALUE_DIREC	USART_Middle_Module.h	/^#define STAT_VALUE_DIREC /;"	d
+STAT_VALUE_GYRO	USART_Middle_Module.h	/^#define STAT_VALUE_GYRO /;"	d
+STAT_VALUE_LMOTOR	USART_Middle_Module.h	/^#define STAT_VALUE_LMOTOR /;"	d
+STAT_VALUE_RMOTOR	USART_Middle_Module.h	/^#define STAT_VALUE_RMOTOR /;"	d
+STAT_VALUE_SPEED	USART_Middle_Module.h	/^#define STAT_VALUE_SPEED /;"	d
+STAT_VALUE_START	USART_Middle_Module.h	/^#define STAT_VALUE_START /;"	d
+SUCCESS	OSMessage.h	/^#define SUCCESS /;"	d
+Send_Msg_After_MS	Timer.c	/^INT8U Send_Msg_After_MS(OS_EVENT *mBox,(void *)msg,INT32U ms)$/;"	f
+SpeedControllerOut	Speed_Controller.c	/^double SpeedControllerOut;$/;"	v
+Speed_Control_PID_Result	Speed_Controller.c	/^float32_t Speed_Control_PID_Result;$/;"	v
+Speed_Control_Task	Speed_Controller.c	/^void Speed_Control_Task (void *p_arg  )$/;"	f
+Speed_Controller_Init	Speed_Controller.c	/^void Speed_Controller_Init (void  )$/;"	f
+Speed_Controller_MBox	Speed_Controller.c	/^OS_EVENT *Speed_Controller_MBox;$/;"	v
+Speed_Controller_Reset	Speed_Controller.c	/^void Speed_Controller_Reset(void )$/;"	f
+Speed_PID	Speed_Controller.c	/^arm_pid_instance_f32 Speed_PID;$/;"	v
+Speed_PID_D	Speed_Controller.c	/^float32_t Speed_PID_D=SPEEDPID_DERIVATIVE;$/;"	v
+Speed_PID_I	Speed_Controller.c	/^float32_t Speed_PID_I=SPEEDPID_INTEGRAL;$/;"	v
+Speed_PID_P	Speed_Controller.c	/^float32_t Speed_PID_P=SPEEDPID_PROPORTION;$/;"	v
+Speed_PID_S	Speed_Controller.c	/^float32_t Speed_PID_S=SPEEDPID_CARSPEEDSET;$/;"	v
+Speed_Value	LPLD_uCosV292.c	/^INT16S *Speed_Value;$/;"	v
+Strategy_Control_Task	StrategyController.c	/^void Strategy_Control_Task (void  *p_arg)\/\/ Strategycontroller Routine Task. Called By OS.$/;"	f
+Strategy_Task_Stk	LPLD_uCosV292.c	/^OS_STK Strategy_Task_Stk[APP_CFG_TASK_START_STK_SIZE];$/;"	v
+SyncIRQ	Camera_Controller.c	/^void SyncIRQ(void)$/;"	f
+SyncIRQ	DEV_Camera_OV7620.c	/^void SyncIRQ(void)$/;"	f
+TARGET_RESET_REQ	USART_Middle_Module.h	/^#define TARGET_RESET_REQ /;"	d
+TERMINAL_BAUD	k60_card.h	/^#define TERMINAL_BAUD /;"	d
+TERM_PORT	k60_card.h	/^#define TERM_PORT /;"	d
+TRANS_CAM	USART_Middle_Module.h	/^#define TRANS_CAM /;"	d
+TRANS_STAT	USART_Middle_Module.h	/^#define TRANS_STAT /;"	d
+TX_BUFFER_SIZE	USART_Middle_Module.h	/^#define TX_BUFFER_SIZE /;"	d
+Timer_Task	Timer.c	/^void Timer_Task((void *)p_arg)$/;"	f
+Trans_Stat	USART_Middle_Module.c	/^void Trans_Stat(INT8U Type, double value)$/;"	f
+Tx_Buffer	USART_Middle_Module.c	/^INT8U     Tx_Buffer[TX_BUFFER_SIZE];$/;"	v
+Tx_Buffer_Cnt	USART_Middle_Module.c	/^INT8U     Tx_Buffer_Cnt = 0   ;$/;"	v
+Tx_Buffer_OSem	USART_Middle_Module.c	/^OS_EVENT *Tx_Buffer_OSem;$/;"	v
+Tx_Buffer_Ptr	USART_Middle_Module.c	/^INT8U     Tx_Buffer_Ptr = 0   ;$/;"	v
+Tx_Send	USART_Middle_Module.c	/^void Tx_Send(INT8U *dat, INT16U cnt)$/;"	f
+UCOS_II	k60_card.h	/^#define UCOS_II /;"	d
+USART_BAUD_RATE	USART_Middle_Module.h	/^#define USART_BAUD_RATE /;"	d
+USART_Controller_MBox	USART_Middle_Module.c	/^OS_EVENT *USART_Controller_MBox;$/;"	v
+USART_DAT	USART_Middle_Module.h	/^#define USART_DAT /;"	d
+USART_Driver_Init	USART_Middle_Module.c	/^void USART_Driver_Init (void  )$/;"	f
+USART_Driver_Task	USART_Middle_Module.c	/^void  USART_Driver_Task (void *p_arg)$/;"	f
+USART_LEN	USART_Middle_Module.h	/^#define USART_LEN /;"	d
+USART_MIDDLE_MODULE_H	USART_Middle_Module.h	/^#define USART_MIDDLE_MODULE_H$/;"	d
+USART_MIDDLE_MODULE_PORT	USART_Middle_Module.h	/^#define USART_MIDDLE_MODULE_PORT /;"	d
+USART_MIDDLE_MODULE_PRIO	app_cfg.h	/^#define  USART_MIDDLE_MODULE_PRIO /;"	d
+USART_Middle_Module_Stk	LPLD_uCosV292.c	/^OS_STK USART_Middle_Module_Stk[APP_CFG_TASK_START_STK_SIZE];$/;"	v
+USART_OPT	USART_Middle_Module.h	/^#define USART_OPT /;"	d
+USART_PROTOCOL_PROCESS	OSMessage.h	/^#define USART_PROTOCOL_PROCESS /;"	d
+USART_Param_Invoke_float32	USART_Middle_Module.c	/^void  USART_Param_Invoke_float32(INT8U PARAM, float32_t *addr)$/;"	f
+USART_Param_Invoke_int32u	USART_Middle_Module.c	/^void  USART_Param_Invoke_int32u(INT8U PARAM, INT32U *addr)$/;"	f
+USART_Rx_IRQ_Handler	USART_Middle_Module.c	/^void USART_Rx_IRQ_Handler (void  )$/;"	f
+USART_SOF	USART_Middle_Module.h	/^#define USART_SOF /;"	d
+USART_SOF2	USART_Middle_Module.h	/^#define USART_SOF2 /;"	d
+USART_Stat	USART_Middle_Module.c	/^INT16U    USART_Stat    = 0   ;$/;"	v
+USART_Tx_IRQ_Handler	USART_Middle_Module.c	/^void USART_Tx_IRQ_Handler (void  )$/;"	f
+USE_DSP_CORE	k60_card.h	/^#define USE_DSP_CORE /;"	d
+USE_FATFS	k60_card.h	/^#define USE_FATFS /;"	d
+UsartMsg_TypeDef	OSMessage.h	/^}UsartMsg_TypeDef;$/;"	t	typeref:struct:__anon2
+Usart_Operation	OSMessage.h	/^    INT32U Usart_Operation;$/;"	m	struct:__anon2
+V	Camera_Controller.c	/^#define V /;"	d	file:
+V	Camera_Controller.h	/^#define V /;"	d
+VALUE_ACCER	USART_Middle_Module.c	/^float32_t *VALUE_ACCER  = NULL;$/;"	v
+VALUE_ANGLE	USART_Middle_Module.c	/^float32_t *VALUE_ANGLE  = NULL;$/;"	v
+VALUE_DIREC	USART_Middle_Module.c	/^INT32U    *VALUE_DIREC  = NULL;$/;"	v
+VALUE_GYRO	USART_Middle_Module.c	/^float32_t *VALUE_GYRO   = NULL;$/;"	v
+VALUE_LMOTOR	USART_Middle_Module.c	/^INT32U    *VALUE_LMOTOR = NULL;$/;"	v
+VALUE_RMOTOR	USART_Middle_Module.c	/^INT32U    *VALUE_RMOTOR = NULL;$/;"	v
+VALUE_SPEED	USART_Middle_Module.c	/^INT32U    *VALUE_SPEED  = NULL;$/;"	v
+VSyncPin_InitStructure	Camera_Controller.c	/^GPIO_InitTypeDef VSyncPin_InitStructure;$/;"	v
+VSyncPin_InitStructure	DEV_Camera_OV7620.c	/^GPIO_InitTypeDef VSyncPin_InitStructure;$/;"	v
+V_Cnt	Camera_Controller.c	/^uint32 V_Cnt=0;                     $/;"	v
+V_Cnt	DEV_Camera_OV7620.c	/^uint32 V_Cnt=0;                     $/;"	v
+Wait_List	Timer.c	/^Msg_Node Wait_List[TIMER_LENGTH];$/;"	v
+Wait_List_Length	Timer.c	/^INT32U Wait_List_Length=0;$/;"	v
+XLevel	DEV_SSD1306.h	/^#define XLevel	/;"	d
+XLevelH	DEV_SSD1306.h	/^#define XLevelH	/;"	d
+XLevelL	DEV_SSD1306.h	/^#define XLevelL	/;"	d
+X_WIDTH	DEV_SSD1306.h	/^#define X_WIDTH /;"	d
+Y_WIDTH	DEV_SSD1306.h	/^#define Y_WIDTH /;"	d
+_BEEP_OFF	OSMessage.h	/^#define _BEEP_OFF(/;"	d
+_BEEP_ON	OSMessage.h	/^#define _BEEP_ON(/;"	d
+_LQOLED_H	DEV_SSD1306.h	/^#define _LQOLED_H$/;"	d
+__DEV_SCCB_H__	DEV_SCCB.h	/^#define __DEV_SCCB_H__$/;"	d
+__K60_CARD_H__	k60_card.h	/^#define __K60_CARD_H__$/;"	d
+__STRATEGY_CONTROLLER_H	StrategyController.h	/^#define  __STRATEGY_CONTROLLER_H$/;"	d
+adc_init_struct	DEV_Gyro.c	/^ADC_InitTypeDef adc_init_struct;$/;"	v
+atoi	util.c	/^INT32U atoi(char *str)$/;"	f
+br	SDCard_Middle_Module.c	/^UINT bw, br;$/;"	v
+buff	SDCard_Middle_Module.c	/^BYTE buff[128];$/;"	v
+bw	SDCard_Middle_Module.c	/^UINT bw, br;$/;"	v
+calcFCS	USART_Middle_Module.c	/^static INT8U calcFCS(INT8U *pBuf, INT8U len)$/;"	f	file:
+cpu_sr	LPLD_uCosV292.c	/^OS_CPU_SR cpu_sr;$/;"	v
+ctr	LPLD_uCosV292.c	/^INT32U ctr=0;$/;"	v
+delay	LPLD_uCosV292.c	/^void delay(void)$/;"	f
+die	SDCard_Middle_Module.c	/^void die(FRESULT rc)$/;"	f
+dma_init	Camera_Controller.c	/^void dma_init(void)$/;"	f
+dma_init	DEV_Camera_OV7620.c	/^void dma_init(void)$/;"	f
+dma_init_struct	DEV_Camera_OV7620.c	/^DMA_InitTypeDef dma_init_struct;$/;"	v
+dma_init_struct	DEV_Gyro.c	/^DMA_InitTypeDef dma_init_struct;$/;"	v
+fatfs	SDCard_Middle_Module.c	/^FATFS fatfs;			$/;"	v
+fil	SDCard_Middle_Module.c	/^FIL fil;			$/;"	v
+ftm_init_struct	DEV_Motor.c	/^static FTM_InitTypeDef ftm_init_struct;$/;"	v	file:
+ftm_init_struct	DEV_QuadDecode.c	/^static FTM_InitTypeDef ftm_init_struct;$/;"	v	file:
+get_fattime	SDCard_Middle_Module.c	/^DWORD get_fattime (void)$/;"	f
+gpio_init	Camera_Controller.c	/^void gpio_init()$/;"	f
+gpio_init	DEV_Camera_OV7620.c	/^void gpio_init()$/;"	f
+height	OSMessage.h	/^    INT32U height;$/;"	m	struct:__anon3
+inject	Camera_Controller.c	/^sdcard_Injection_TypeDef inject;$/;"	v
+main	LPLD_uCosV292.c	/^int  main (void)$/;"	f
+mmessage_to_sdcard	Camera_Controller.c	/^ControllerMsg_TypeDef mmessage_to_sdcard;$/;"	v
+msg	OSMessage.h	/^    void *msg;$/;"	m	struct:__anon1
+msg	OSMessage.h	/^    void *msg;$/;"	m	struct:__anon2
+ov7670_init	Camera_Controller.c	/^uint8 ov7670_init(void)$/;"	f
+ov7670_init	DEV_Camera_OV7620.c	/^uint8 ov7670_init(void)$/;"	f
+p_Speed	Speed_Controller.c	/^INT16S *p_Speed;$/;"	v
+pdb_init_struct	DEV_Gyro.c	/^PDB_InitTypeDef pdb_init_struct;$/;"	v
+pit3_init_struct	DEV_Gyro.c	/^PIT_InitTypeDef pit3_init_struct;$/;"	v
+pit_init	DEV_QuadDecode.c	/^void pit_init(void)$/;"	f
+pit_init_struct	DEV_QuadDecode.c	/^PIT_InitTypeDef pit_init_struct;$/;"	v
+pit_isr	DEV_QuadDecode.c	/^void pit_isr(void)$/;"	f
+ptd_init	Camera_Controller.c	/^GPIO_InitTypeDef ptd_init;$/;"	v
+ptr	OSMessage.h	/^    INT8U* ptr;$/;"	m	struct:__anon3
+ptr	SDCard_Middle_Module.c	/^INT8U *ptr;$/;"	v
+qd_init	DEV_QuadDecode.c	/^void qd_init(void)$/;"	f
+qd_result	DEV_QuadDecode.c	/^INT16S qd_result=0;$/;"	v
+rc	SDCard_Middle_Module.c	/^FRESULT rc;			$/;"	v
+rec_message	Camera_Controller.c	/^ControllerMsg_TypeDef rec_message;$/;"	v
+resi_ms	Timer.c	/^    INT32U resi_ms;$/;"	m	struct:__anon4	file:
+sdcard_Injection_TypeDef	OSMessage.h	/^}sdcard_Injection_TypeDef;$/;"	t	typeref:struct:__anon3
+taskStat	SDCard_Middle_Module.c	/^INT8U taskStat=SDCARD_NOINIT;$/;"	v
+umsg	USART_Middle_Module.c	/^UsartMsg_TypeDef umsg;$/;"	v
+usart_message_to_sdcard	USART_Middle_Module.c	/^ControllerMsg_TypeDef usart_message_to_sdcard;$/;"	v
+valid	Timer.c	/^    INT8U valid;$/;"	m	struct:__anon4	file:
+width	OSMessage.h	/^    INT32U width;$/;"	m	struct:__anon3
